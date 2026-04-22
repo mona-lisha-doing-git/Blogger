@@ -1,0 +1,21 @@
+1. Creation
+ - Dependencies needed: install packages using pip or uv -> uv is faster so we are using uv
+        --> uv init .
+        --> uv add fastapi
+        --> uv add python-dotenv (for environment variables)
+        --> uv add "fastapi-users[sqlalchemy]" (for handling authentication and authorization)
+        --> uv add imagekitio
+        --> uv add uvicorn
+        --> uv add "uvicorn[standard]" (uvicorn is a web server to serve our fast api application)
+        --> uv add aiosqlite (For interacting with our db)
+ - Setting up
+        --> .env: private key, public key, url from imagekitio
+        --> app: app.py - FastAPI() routes and functions. (Functions should always return pydantic object or python dictionary: for JSON - JavaScript Object Notation)
+        --> main: import uvicorn and the app
+
+ - Run: uv run .\main.py
+
+2. Routes
+ - get
+ - get by id : dynamic routes
+ - get limit parameter
