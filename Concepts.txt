@@ -19,3 +19,9 @@
  - get
  - get by id : dynamic routes
  - get limit parameter
+ - post to create_post
+
+3. Database
+ - SQLAlchemy
+ - sqlite
+ - ORM: Object Relational Mapping
