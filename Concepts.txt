@@ -20,8 +20,16 @@
  - get by id : dynamic routes
  - get limit parameter
  - post to create_post
+ - Upload: post
+ - Retrieving from db: get
 
 3. Database
  - SQLAlchemy
  - sqlite
  - ORM: Object Relational Mapping
+
+4. File Upload
+ - Creating post and saving to db
+ - Fast api is an asynchronous api
+ - Dependency injection
+ - Adding to the session and then committing to the session

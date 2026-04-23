@@ -6,7 +6,6 @@ __pycache__/
 
 # Virtual environment
 venv/
-.env/
 .env
 
 # PyCharm
@@ -20,3 +19,6 @@ venv/
 
 # SQLite DB (if used)
 *.db
+
+# Tests
+test.txt
